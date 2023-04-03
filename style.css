@@ -1,0 +1,174 @@
+/* take out all padding and margin on the page*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 18px;
+}
+/* re-size images */
+img {
+    width: 25%;
+    height: auto;
+}
+/* first section style */ 
+.first-section {
+    background-image: linear-gradient(to right,#d62976, #962fbf, #4f5bd5);
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 150px 60px 150px;
+}
+.first-section > #top-section > header {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+.first-section > #top-section > header > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.first-section > #top-section > header > h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    /* border: 2px solid lightgreen; */
+}
+.first-section > #top-section > header > #links {
+    display: flex;
+    color: #e5e7eb;
+    /* justify-content: space-evenly; */
+    font-size: 18px;
+    /* border: 2px solid red; */
+}
+/* border colors for containers of bottom part */
+/* .first-section > #bottom-section {
+    border: 10px solid red;
+}
+.first-section > #bottom-section > #bottom-section-left {
+    border: 2px solid lightgreen;
+}
+.first-section > #bottom-section > #bottom-section-right {
+    border: 2px solid lightskyblue;
+} */
+/* end of section for colors*/
+.first-section > #bottom-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.first-section > #bottom-section > #bottom-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first-section > #bottom-section > #bottom-section-left > div > strong {
+    font-size: 48px;
+    font-weight: bold;
+    /* color: #f9faf8; */
+}
+.first-section > #bottom-section > #bottom-section-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.first-section > #bottom-section > #bottom-section-right > img {
+    width: 35%;
+    height: auto;
+}
+/* setting up button sizing */
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #4f5bd5;
+    background-color: #4f5bd5;
+    color: #e5e7eb;
+    font-size: larger;
+    font-weight: bold;
+}
+/* second section style */ 
+#second-section {
+    background-color: white;
+    padding: 40px 150px 60px 150px;
+    display: flex;
+    flex-direction: column;
+}
+#second-section > strong {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#second-section > .image-container {
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid red; */
+}
+#second-section > .image-container > .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid yellow; */
+}
+#second-section > .image-container > .image > img {
+    width: 75%;
+    height: auto;
+    border: 6px solid #4f5bd5;
+    border-radius: 5px;
+}
+#second-section > .image-container > .image > p {
+    width: 75%;
+    text-align: center;
+}
+/* third section style */ 
+#third-section {
+    background-image: linear-gradient(white, rgba(214,41,118,.5), rgba(214,41,118,.7), rgba(214,41,118,.5),white);
+    padding: 70px 170px 60px 170px;
+}
+#quote {
+    font-size: 36px;
+    color: black;
+    
+}
+#author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+/* fourth section style */ 
+#fourth-section {
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+#call-to-action {
+    width: 90%;
+    background-color: #962fbf;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+/* #call-to-action > form > button {
+    border-color: #4f5bd5;
+    text-decoration: none;
+} */
+#call-to-action > #call-to-action-sentences > strong {
+    font-size: 24px;
+}
+/* footer */
+footer {
+    background-image: linear-gradient(to left,#d62976, #4f5bd5);
+    color: white;
+    padding: 40px 150px 40px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
