@@ -21,12 +21,10 @@ img {
     padding: 40px 150px 60px 150px;
 }
 .first-section > #top-section {
-    /* display: flex; */
     border: 2px solid yellow;
 }
 .first-section > #top-section > header {
     display: flex;
-    /* justify-content: space-between; */
     border: 2px solid red;
 }
 .first-section > #top-section > header > p {
@@ -48,17 +46,6 @@ img {
     font-size: 18px;
     border: 2px solid greenyellow;
 }
-/* border colors for containers of bottom part */
-/* .first-section > #bottom-section {
-    border: 10px solid red;
-}
-.first-section > #bottom-section > #bottom-section-left {
-    border: 2px solid lightgreen;
-}
-.first-section > #bottom-section > #bottom-section-right {
-    border: 2px solid lightskyblue;
-} */
-/* end of section for colors*/
 .first-section > #bottom-section {
     display: flex;
     justify-content: flex-end;
@@ -72,7 +59,6 @@ img {
 .first-section > #bottom-section > #bottom-section-left > div > strong {
     font-size: 48px;
     font-weight: bold;
-    /* color: #f9faf8; */
 }
 .first-section > #bottom-section > #bottom-section-right {
     display: flex;
@@ -117,7 +103,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 10px solid yellow; */
 }
 #second-section > .image-container > .image > img {
     width: 75%;
@@ -162,10 +147,6 @@ button {
     justify-content: space-between;
     padding: 30px;
 }
-/* #call-to-action > form > button {
-    border-color: #4f5bd5;
-    text-decoration: none;
-} */
 #call-to-action > #call-to-action-sentences > strong {
     font-size: 24px;
 }
