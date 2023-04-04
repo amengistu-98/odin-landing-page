@@ -20,10 +20,14 @@ img {
     flex-direction: column;
     padding: 40px 150px 60px 150px;
 }
+.first-section > #top-section {
+    /* display: flex; */
+    border: 2px solid yellow;
+}
 .first-section > #top-section > header {
     display: flex;
-    justify-content: space-between;
-    /* border: 2px solid yellow; */
+    /* justify-content: space-between; */
+    border: 2px solid red;
 }
 .first-section > #top-section > header > p {
     font-size: 18px;
@@ -32,14 +36,17 @@ img {
 .first-section > #top-section > header > h1 {
     font-size: 24px;
     color: #f9faf8;
-    /* border: 2px solid lightgreen; */
+    border: 2px solid lightskyblue;
+    flex: 2;
 }
 .first-section > #top-section > header > #links {
     display: flex;
+    flex: 1;
     color: #e5e7eb;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    gap: 5px;
     font-size: 18px;
-    /* border: 2px solid red; */
+    border: 2px solid greenyellow;
 }
 /* border colors for containers of bottom part */
 /* .first-section > #bottom-section {
