@@ -20,31 +20,33 @@ img {
     flex-direction: column;
     padding: 40px 150px 60px 150px;
 }
-.first-section > #top-section {
-    border: 2px solid yellow;
-}
 .first-section > #top-section > header {
     display: flex;
-    border: 2px solid red;
 }
-.first-section > #top-section > header > p {
+.first-section > #top-section > header > #links > a:link, 
+.first-section > #top-section > header > #links > a:visited
+{
     font-size: 18px;
+    text-decoration: none;
     color: #e5e7eb;
+}
+.first-section > #top-section > header > #links > a:hover {
+    font-size: 19px;
+    color: #d62976;
 }
 .first-section > #top-section > header > h1 {
     font-size: 24px;
     color: #f9faf8;
-    border: 2px solid lightskyblue;
-    flex: 2;
+    flex: 4;
 }
 .first-section > #top-section > header > #links {
     display: flex;
     flex: 1;
     color: #e5e7eb;
     justify-content: space-between;
+    align-items: center;
     gap: 5px;
     font-size: 18px;
-    border: 2px solid greenyellow;
 }
 .first-section > #bottom-section {
     display: flex;
